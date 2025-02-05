@@ -3,7 +3,7 @@
 ## Architecture Diagram
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2408c63da6de87edc469dedbc5aca4f5b44f160d/images/Architecture%20Diagram.png)
 
-In this Data Engineering ETL project, a multiple array of products all part of the Microsoft Azure suite were used to conduct a complete ETL workflow. Data was ingested from multiple sources, integrated into the Azure Data Lake Storage (Gen 2) using Azure Data Factory. Data was then transformed in DataBricks using Pyspark, multiple transformations were conducted on dataframes, and transformed data was loaded back into Azure Data Lake storage for analysis. I then integrated Azure Synapse Analytics as part of the ETL pipeline, in order to gather insights from the data using Synapse SQL. 
+In this Data Engineering ETL project, a multiple array of products all part of the Microsoft Azure suite were used to conduct a complete ETL workflow. Data was ingested from multiple sources, integrated into the Azure Data Lake Storage (Gen 2) using Azure Data Factory. Multiple data transformations on Pyspark dataframes were conducted, and transformed data was loaded back into Azure Data Lake storage for analysis. I then integrated Azure Synapse Analytics as part of the ETL pipeline, in order to gather insights from the data using Synapse SQL. 
 
 ## Azure Data Factory
 Azure Data Factory was utilized as part of the ETL pipeline and E2E flow. Raw data was copied from HTTP file links stored on GitHub.
