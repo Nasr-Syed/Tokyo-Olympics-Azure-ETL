@@ -26,7 +26,7 @@ Figure 4 - Data was loaded onto Azure Data Lake Storage (Gen 2). This data was t
 
 ## Azure DataBricks
 ### Exploratory Data Analysis using Pyspark
-![alt text]()
+![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/86d65add3e731f2cffb17ef5b7b66cefc3ab3fcc/images/exploratory_data_analysis.png)
 Figure 5 - Exploratory Data Analysis was conducted on the dataset in Azure DataBricks. Data was transformed via ETL processes in Pyspark, and then written to Azure Data Lake Storage. The DataBricks notebook work can be [found here](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/fe06f7d45a77cc45f6c225af05955a2516577cea/Tokyo%20OIympics%20Data%20Transformations.ipynb).
 
 ### Data Lake Gen 2 - Transformed files
