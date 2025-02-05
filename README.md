@@ -32,15 +32,14 @@ Figure 5 - Exploratory Data Analysis was conducted on the dataset in Azure DataB
 ### Data Lake Gen 2 - Transformed files
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/Azure%20Data%20Lake%20Storage_transformed.png)
 
-After data was transformed via Pyspark functions in DataBricks notebooks, files were then written back onto Azure Data Lake Storage (Gen 2) in a "transformed" folder. Files were stored as "Block blob" storage.
+Figure 6 - After data was transformed via Pyspark functions in DataBricks notebooks, files were then written back onto Azure Data Lake Storage (Gen 2) in a "transformed" folder. Files were stored as "Block blob" storage.
 
 
 
 ## Azure Synapse Analytics
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/synapse%20database%20tables%20.png)
 
-Azure Synapse Analytics was integrated into this ETL end-to-end workflow, in order to explore the capabilities of data warehousing, using SQL. Tables were integrated from Azure Data Lake, queries were performed on the transformed data sets using Synapse SQL, and resultant queries were exported and stored as .csv files. 
-
-SQL queries performed in Synapse Analytics below:
+Figure 7 - Azure Synapse Analytics was integrated into this ETL end-to-end workflow, in order to explore the capabilities of data warehousing, using SQL. Tables were integrated from Azure Data Lake, queries were performed on the transformed data sets using Synapse SQL, and resultant queries were exported and stored as .csv files. 
 
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/azure%20synapse%20queries.png)
+Figure 8 - SQL queries performed in Synapse Analytics above:
