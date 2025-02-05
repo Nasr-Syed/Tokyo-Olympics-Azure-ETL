@@ -10,22 +10,25 @@ In this Data Engineering ETL project, a multiple array of products all part of t
 
 ## Azure Data Factory
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/b3e5aa3c66c8aeeafb5d44a7f9c0c460ff0859d5/images/ADF%20Flow.png)
-Azure Data Factory was utilized as part of the ETL pipeline and E2E flow. Raw data was copied from HTTP file links stored on GitHub.
+Figure 1 - Azure Data Factory was utilized as part of the ETL pipeline and E2E flow. Raw data was copied from HTTP file links stored on GitHub.
 
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/b19c817b393805cd020a5850879346703e061d75/images/ADF%20Details.png)
-The Azure Data Factory copy pipeline loaded data from various source systems (in this case multiple .csv files stored on GitHub) from HTTP, and copied successfully onto Azure Data Lake storage.
-
-
+Figure 2 - The Azure Data Factory copy pipeline loaded data from various source systems (in this case multiple .csv files stored on GitHub) from HTTP, and copied successfully onto Azure Data Lake storage.
 
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/b19c817b393805cd020a5850879346703e061d75/images/Example%20of%20one%20copy%20block.png)
-Details for one example of a copy block in ADF can be found below in the figure. As seen, HTTP configuration is loaded to pull .csv data from GitHub repository, comma delimited.
+Figure 3 - Details for one example of a copy block in ADF can be found above in the figure. As seen, HTTP configuration is loaded to pull .csv data from GitHub repository, comma delimited.
 
 
 ## Azure Data Lake Storage 
 ### Data Lake Gen 2
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/01e354a44c6e836d6c116384c0edf299936c33ce/images/adls.png)
+Figure 4 - Data was loaded onto Azure Data Lake Storage (Gen 2). This data was then to be analyzed, and transformed using Azure DataBricks.
 
 ## Azure DataBricks
+### Exploratory Data Analysis using Pyspark
+![alt text]()
+Figure 5 - Exploratory Data Analysis was conducted on the dataset in Azure DataBricks. Data was transformed via ETL processes in Pyspark, and then written to Azure Data Lake Storage. The DataBricks notebook work can be [found here](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/fe06f7d45a77cc45f6c225af05955a2516577cea/Tokyo%20OIympics%20Data%20Transformations.ipynb).
+
 ### Data Lake Gen 2 - Transformed files
 ![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/Azure%20Data%20Lake%20Storage_transformed.png)
 
