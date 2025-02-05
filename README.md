@@ -22,9 +22,9 @@ Details for one example of a copy block in ADF can be found below in the figure.
 ## Azure DataBricks
 ### Data Lake Gen 2 - Transformed files
 After data was transformed via Pyspark functions in DataBricks notebooks, files were then written back onto Azure Data Lake Storage (Gen 2) in a "transformed" folder. Files were stored as "Block blob" storage.
-![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2408c63da6de87edc469dedbc5aca4f5b44f160d/images/Azure%20Data%20Lake%20Storage_transformed.png)
+![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/Azure%20Data%20Lake%20Storage_transformed.png)
 
 ## Azure Synapse Analytics
 Azure Synapse Analytics was integrated into this ETL end-to-end workflow, in order to explore the capabilities of data warehousing, using SQL. Tables were integrated from Azure Data Lake, queries were performed on the transformed data sets using Synapse SQL, and resultant queries were exported and stored as .csv files. 
-![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2408c63da6de87edc469dedbc5aca4f5b44f160d/images/synapse%20database%20tables.png)
-![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2408c63da6de87edc469dedbc5aca4f5b44f160d/images/azure%20synapse%20queries.png)
+![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/synapse%20database%20tables%20.png)
+![alt text](https://github.com/Nasr-Syed/Tokyo-Olympics-Azure-ETL/blob/2aed8c17ea2b24f07352ef2c0303772768ba8a64/images/azure%20synapse%20queries.png)
