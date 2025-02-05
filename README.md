@@ -1,3 +1,6 @@
 # Tokyo-Olympics-Azure-ETL
-## heading 1
-### heading 2
+
+## Architecture Diagram
+![alt text](images/Architecture Diagram.png)
+
+## 
